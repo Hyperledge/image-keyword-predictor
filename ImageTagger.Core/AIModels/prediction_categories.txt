@@ -1661,3 +1661,49 @@ wave
 waves
 wealth
 weapon
+wear
+wearing a towel
+weather
+wedding
+wedding ceremony
+wedding day
+wedding dress
+well
+wellbeing
+wet
+wheat
+wheel
+whiskey
+white
+white background
+white color
+wild
+wilderness
+wildlife
+wind
+wind power
+wind turbine
+windmill
+window
+windows
+wine
+wineglass
+winter
+winter activity
+winter clothes
+winter time
+woman
+wood
+wooden
+woodland
+woods
+work
+work tool
+working
+workout
+xmas
+yacht
+yellow
+yoga
+young
+youth
