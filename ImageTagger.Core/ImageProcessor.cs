@@ -1,3 +1,6 @@
 ﻿using Microsoft.ML.OnnxRuntime.Tensors;
 
-namespace Imag
+namespace ImageTagger.Core;
+
+/// <summary>
+///     ImageProc
