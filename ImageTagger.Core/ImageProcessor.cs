@@ -3,4 +3,5 @@
 namespace ImageTagger.Core;
 
 /// <summary>
-///     ImageProc
+///     ImageProcessor is a class for processing images.
+/
