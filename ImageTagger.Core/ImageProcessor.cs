@@ -8,4 +8,7 @@ namespace ImageTagger.Core;
 public class ImageProcessor
 {
     private readonly float[] _mean = { 0.485f, 0.456f, 0.406f };
-    private readonly float[] _standardDe
+    private readonly float[] _standardDeviation = { 0.229f, 0.224f, 0.225f };
+
+
+    /// 
