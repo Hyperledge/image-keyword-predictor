@@ -11,4 +11,5 @@ public class ImageProcessor
     private readonly float[] _standardDeviation = { 0.229f, 0.224f, 0.225f };
 
 
-    /// 
+    /// <summary>
+    ///     Given an image it applies ne
