@@ -13,4 +13,5 @@ public class ImageProcessor
 
     /// <summary>
     ///     Given an image it applies necessary transformations and returns a tensor.
-    /// <
+    /// </summary>
+    /// <param name="image">The image
