@@ -14,4 +14,5 @@ public class ImageProcessor
     /// <summary>
     ///     Given an image it applies necessary transformations and returns a tensor.
     /// </summary>
-    /// <param name="image">The image
+    /// <param name="image">The image object.</param>
+    /// <returns>The DenseTe
