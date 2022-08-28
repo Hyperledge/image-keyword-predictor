@@ -15,4 +15,5 @@ public class ImageProcessor
     ///     Given an image it applies necessary transformations and returns a tensor.
     /// </summary>
     /// <param name="image">The image object.</param>
-    /// <returns>The DenseTensor of dimension {1, 3, 224, 224}</return
+    /// <returns>The DenseTensor of dimension {1, 3, 224, 224}</returns>
+    private Tensor<float> ImageToTens
