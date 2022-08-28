@@ -16,4 +16,6 @@ public class ImageProcessor
     /// </summary>
     /// <param name="image">The image object.</param>
     /// <returns>The DenseTensor of dimension {1, 3, 224, 224}</returns>
-    private Tensor<float> ImageToTens
+    private Tensor<float> ImageToTensor(Image<Rgb24> image)
+    {
+        Tensor<flo
