@@ -18,4 +18,5 @@ public class ImageProcessor
     /// <returns>The DenseTensor of dimension {1, 3, 224, 224}</returns>
     private Tensor<float> ImageToTensor(Image<Rgb24> image)
     {
-        Tensor<float> outputTensor = new DenseTensor<float>(new[] { 1, 3
+        Tensor<float> outputTensor = new DenseTensor<float>(new[] { 1, 3, 224, 224 });
+        // Resize image to the correct w
