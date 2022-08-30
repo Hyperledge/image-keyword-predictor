@@ -19,4 +19,7 @@ public class ImageProcessor
     private Tensor<float> ImageToTensor(Image<Rgb24> image)
     {
         Tensor<float> outputTensor = new DenseTensor<float>(new[] { 1, 3, 224, 224 });
-        // Resize image to the correct w
+        // Resize image to the correct width.
+        image.Mutate(x =>
+        {
+            x.Resi
