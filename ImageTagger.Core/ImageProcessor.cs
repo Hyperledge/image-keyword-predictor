@@ -22,4 +22,6 @@ public class ImageProcessor
         // Resize image to the correct width.
         image.Mutate(x =>
         {
-            x.Resi
+            x.Resize(new ResizeOptions
+            {
+                Si
