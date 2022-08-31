@@ -24,4 +24,5 @@ public class ImageProcessor
         {
             x.Resize(new ResizeOptions
             {
-                Si
+                Size = new Size(224, 224),
+                Mode = R
