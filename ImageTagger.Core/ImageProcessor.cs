@@ -25,4 +25,8 @@ public class ImageProcessor
             x.Resize(new ResizeOptions
             {
                 Size = new Size(224, 224),
-                Mode = R
+                Mode = ResizeMode.Pad
+            });
+        });
+
+        image
