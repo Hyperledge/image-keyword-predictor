@@ -29,4 +29,6 @@ public class ImageProcessor
             });
         });
 
-        image
+        image.ProcessPixelRows(accessor =>
+        {
+            for (v
