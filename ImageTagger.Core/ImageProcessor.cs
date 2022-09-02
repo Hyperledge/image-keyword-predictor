@@ -31,4 +31,5 @@ public class ImageProcessor
 
         image.ProcessPixelRows(accessor =>
         {
-            for (v
+            for (var y = 0; y < accessor.Height; y++)
+            
