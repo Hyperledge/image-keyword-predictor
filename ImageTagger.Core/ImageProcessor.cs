@@ -33,4 +33,5 @@ public class ImageProcessor
         {
             for (var y = 0; y < accessor.Height; y++)
             {
-                var pixelSpan = accessor.GetRowSpan(y
+                var pixelSpan = accessor.GetRowSpan(y);
+                for (var x = 0; x < accessor.Widt
