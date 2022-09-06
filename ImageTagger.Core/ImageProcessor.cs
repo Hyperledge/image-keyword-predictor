@@ -37,4 +37,4 @@ public class ImageProcessor
                 for (var x = 0; x < accessor.Width; x++)
                 {
                     outputTensor[0, 0, y, x] = (pixelSpan[x].R / 255f - _mean[0]) / _standardDeviation[0];
-           
+                    outputTensor[0, 1, y, x] = (pixelSp
