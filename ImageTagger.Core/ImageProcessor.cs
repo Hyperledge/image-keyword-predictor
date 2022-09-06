@@ -36,4 +36,4 @@ public class ImageProcessor
                 var pixelSpan = accessor.GetRowSpan(y);
                 for (var x = 0; x < accessor.Width; x++)
                 {
-          
+                    outputTensor[0, 0, y, x] = (pixelSpan[x].R 
