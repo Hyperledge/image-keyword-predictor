@@ -46,4 +46,4 @@ public class ImageProcessor
     }
 
     /// <summary>
-    ///     
+    ///     ProcessImage transforms an image i
