@@ -42,4 +42,8 @@ public class ImageProcessor
                 }
             }
         });
-       
+        return outputTensor;
+    }
+
+    /// <summary>
+    ///     
