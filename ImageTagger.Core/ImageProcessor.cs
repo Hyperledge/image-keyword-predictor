@@ -46,4 +46,6 @@ public class ImageProcessor
     }
 
     /// <summary>
-    ///     ProcessImage transforms an image i
+    ///     ProcessImage transforms an image into a tensor given it's path.
+    /// </summary>
+    /// <param n
