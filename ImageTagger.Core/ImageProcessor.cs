@@ -50,4 +50,4 @@ public class ImageProcessor
     /// </summary>
     /// <param name="filePath">The image path.</param>
     /// <returns>The image tensor.</returns>
- 
+    public Tensor<float> ProcessImage(string filePath
