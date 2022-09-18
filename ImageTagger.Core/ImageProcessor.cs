@@ -50,4 +50,6 @@ public class ImageProcessor
     /// </summary>
     /// <param name="filePath">The image path.</param>
     /// <returns>The image tensor.</returns>
-    public Tensor<float> ProcessImage(string filePath
+    public Tensor<float> ProcessImage(string filePath)
+    {
+        using var image = Image.Load<Rgb24
