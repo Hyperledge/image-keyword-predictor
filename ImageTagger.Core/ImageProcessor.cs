@@ -54,4 +54,6 @@ public class ImageProcessor
     {
         using var image = Image.Load<Rgb24>(filePath);
         var outputTensor = ImageToTensor(image);
-        return outp
+        return outputTensor;
+    }
+}
