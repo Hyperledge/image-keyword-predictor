@@ -1,1 +1,4 @@
-﻿namespace Ima
+﻿namespace ImageTagger.Core;
+
+/// <summary>
+///     L
