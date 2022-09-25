@@ -1,4 +1,5 @@
 ﻿namespace ImageTagger.Core;
 
 /// <summary>
-///     L
+///     LabelsRegistry holds the model labels.
+/// </su
