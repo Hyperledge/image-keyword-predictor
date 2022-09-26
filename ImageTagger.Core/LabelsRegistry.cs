@@ -5,4 +5,6 @@
 /// </summary>
 public class LabelsRegistry
 {
-    private r
+    private readonly List<string> _labels;
+
+    /// <summary
