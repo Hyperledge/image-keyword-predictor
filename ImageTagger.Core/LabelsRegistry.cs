@@ -2,4 +2,7 @@
 
 /// <summary>
 ///     LabelsRegistry holds the model labels.
-/// </su
+/// </summary>
+public class LabelsRegistry
+{
+    private r
