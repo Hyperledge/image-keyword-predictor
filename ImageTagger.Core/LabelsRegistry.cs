@@ -7,4 +7,5 @@ public class LabelsRegistry
 {
     private readonly List<string> _labels;
 
-    /// <summary
+    /// <summary>
+    ///     Instantiates a new instance of LabelsR
