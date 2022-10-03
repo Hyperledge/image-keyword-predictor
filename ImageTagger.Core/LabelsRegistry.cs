@@ -10,4 +10,5 @@ public class LabelsRegistry
     /// <summary>
     ///     Instantiates a new instance of LabelsRegistry.
     /// </summary>
-    /// <param name="labe
+    /// <param name="labelsFile">The labelsFile path.</param>
+    public LabelsRegistry(
