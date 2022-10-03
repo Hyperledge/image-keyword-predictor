@@ -8,4 +8,6 @@ public class LabelsRegistry
     private readonly List<string> _labels;
 
     /// <summary>
-    ///     Instantiates a new instance of LabelsR
+    ///     Instantiates a new instance of LabelsRegistry.
+    /// </summary>
+    /// <param name="labe
