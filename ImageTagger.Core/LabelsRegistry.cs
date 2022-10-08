@@ -11,4 +11,6 @@ public class LabelsRegistry
     ///     Instantiates a new instance of LabelsRegistry.
     /// </summary>
     /// <param name="labelsFile">The labelsFile path.</param>
-    public LabelsRegistry(
+    public LabelsRegistry(string labelsFile)
+    {
+        _labels = new List<
