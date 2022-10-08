@@ -13,4 +13,5 @@ public class LabelsRegistry
     /// <param name="labelsFile">The labelsFile path.</param>
     public LabelsRegistry(string labelsFile)
     {
-        _labels = new List<
+        _labels = new List<string>();
+        // Read the labels file and add the
