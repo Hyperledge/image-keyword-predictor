@@ -14,4 +14,5 @@ public class LabelsRegistry
     public LabelsRegistry(string labelsFile)
     {
         _labels = new List<string>();
-        // Read the labels file and add the
+        // Read the labels file and add the labels to the list.
+        using var sr = new Stream
