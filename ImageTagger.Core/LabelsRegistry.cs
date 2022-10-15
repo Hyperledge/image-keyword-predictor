@@ -17,4 +17,5 @@ public class LabelsRegistry
         // Read the labels file and add the labels to the list.
         using var sr = new StreamReader(labelsFile);
         while (!sr.EndOfStream)
- 
+        {
+            var line = sr.ReadLine(
