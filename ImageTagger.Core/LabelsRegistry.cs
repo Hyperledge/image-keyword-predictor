@@ -18,4 +18,5 @@ public class LabelsRegistry
         using var sr = new StreamReader(labelsFile);
         while (!sr.EndOfStream)
         {
-            var line = sr.ReadLine(
+            var line = sr.ReadLine() ?? string.Empty;
+            if (line != string.Empty) _l
