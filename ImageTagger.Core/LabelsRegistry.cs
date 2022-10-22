@@ -19,4 +19,8 @@ public class LabelsRegistry
         while (!sr.EndOfStream)
         {
             var line = sr.ReadLine() ?? string.Empty;
-            if (line != string.Empty) _l
+            if (line != string.Empty) _labels.Add(line);
+        }
+    }
+
+    public int 
