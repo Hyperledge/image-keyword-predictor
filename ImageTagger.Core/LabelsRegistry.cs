@@ -23,4 +23,7 @@ public class LabelsRegistry
         }
     }
 
-    public int 
+    public int Count => _labels.Count;
+
+    /// <summary>
+    
