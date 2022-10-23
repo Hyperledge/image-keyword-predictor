@@ -26,4 +26,5 @@ public class LabelsRegistry
     public int Count => _labels.Count;
 
     /// <summary>
-    
+    ///     Returns the label at the given index.
+ 
