@@ -1,3 +1,6 @@
 ﻿using Microsoft.ML.OnnxRuntime;
 
-namespace ImageTagge
+namespace ImageTagger.Core;
+
+/// <summary>
+///     ModelPrediction class
