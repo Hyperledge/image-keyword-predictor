@@ -3,4 +3,5 @@
 namespace ImageTagger.Core;
 
 /// <summary>
-///     ModelPrediction class
+///     ModelPrediction class is used to predict tags for given images.
+//
