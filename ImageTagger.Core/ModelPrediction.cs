@@ -10,4 +10,7 @@ public class ModelPrediction
     /// <summary>
     ///     The <see cref="ImageProcessor" /> instance.
     /// </summary>
-    private readonly Image
+    private readonly ImageProcessor _imageProcessor;
+
+    /// <summary>
+    /
