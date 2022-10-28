@@ -7,4 +7,5 @@ namespace ImageTagger.Core;
 /// </summary>
 public class ModelPrediction
 {
-    /// <
+    /// <summary>
+    ///     The <see cref="ImageProcessor
