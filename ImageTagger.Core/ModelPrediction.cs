@@ -8,4 +8,6 @@ namespace ImageTagger.Core;
 public class ModelPrediction
 {
     /// <summary>
-    ///     The <see cref="ImageProcessor
+    ///     The <see cref="ImageProcessor" /> instance.
+    /// </summary>
+    private readonly Image
