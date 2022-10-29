@@ -13,4 +13,4 @@ public class ModelPrediction
     private readonly ImageProcessor _imageProcessor;
 
     /// <summary>
-    /
+    ///     The ONNX <see cref="InferenceSession" /> in
