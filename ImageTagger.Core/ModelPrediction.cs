@@ -15,4 +15,6 @@ public class ModelPrediction
     /// <summary>
     ///     The ONNX <see cref="InferenceSession" /> instance.
     /// </summary>
-    private reado
+    private readonly InferenceSession _inferenceSession;
+
+    /// <
