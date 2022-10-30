@@ -19,3 +19,5 @@ public class ModelPrediction
 
     /// <summary>
     ///     The LabelsRegistry instance.
+    /// </summary>
+    private readonly L
