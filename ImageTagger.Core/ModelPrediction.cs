@@ -17,4 +17,5 @@ public class ModelPrediction
     /// </summary>
     private readonly InferenceSession _inferenceSession;
 
-    /// <
+    /// <summary>
+    ///     The LabelsRegistry instance.
