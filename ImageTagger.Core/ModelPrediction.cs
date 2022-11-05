@@ -22,4 +22,5 @@ public class ModelPrediction
     /// </summary>
     private readonly LabelsRegistry _labelsRegistry;
 
-    /// <summary
+    /// <summary>
+    ///     Constructs a new instance of Mod
