@@ -25,4 +25,5 @@ public class ModelPrediction
     /// <summary>
     ///     Constructs a new instance of ModelPrediction.
     /// </summary>
-    /// <param name="modelPath">The path to the model.
+    /// <param name="modelPath">The path to the model.</param>
+    /// <param name="labelsPath">
