@@ -27,4 +27,6 @@ public class ModelPrediction
     /// </summary>
     /// <param name="modelPath">The path to the model.</param>
     /// <param name="labelsPath">The path to the labels file..</param>
-    public ModelPrediction(string modelPath, string labe
+    public ModelPrediction(string modelPath, string labelsPath)
+    {
+        _inferenceSession = ne
