@@ -30,4 +30,5 @@ public class ModelPrediction
     public ModelPrediction(string modelPath, string labelsPath)
     {
         _inferenceSession = new InferenceSession(modelPath);
-    
+        _imageProcessor = new ImageProcessor();
+       
