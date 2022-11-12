@@ -31,4 +31,4 @@ public class ModelPrediction
     {
         _inferenceSession = new InferenceSession(modelPath);
         _imageProcessor = new ImageProcessor();
-       
+        _labelsRegistry = new LabelsRegistry(labelsPath
