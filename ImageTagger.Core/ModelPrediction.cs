@@ -31,4 +31,8 @@ public class ModelPrediction
     {
         _inferenceSession = new InferenceSession(modelPath);
         _imageProcessor = new ImageProcessor();
-        _labelsRegistry = new LabelsRegistry(labelsPath
+        _labelsRegistry = new LabelsRegistry(labelsPath);
+    }
+
+    /// <summary>
+    ///     PredictTags
