@@ -35,4 +35,6 @@ public class ModelPrediction
     }
 
     /// <summary>
-    ///     PredictTags
+    ///     PredictTags predicts an image's tags.
+    /// </summary>
+    /// <pa
