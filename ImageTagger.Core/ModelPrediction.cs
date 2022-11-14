@@ -38,4 +38,5 @@ public class ModelPrediction
     ///     PredictTags predicts an image's tags.
     /// </summary>
     /// <param name="imagePath">The path to the image file.</param>
-    /// <returns>A <see cref="Prediction" /> enum
+    /// <returns>A <see cref="Prediction" /> enumerable.</returns>
+    publi
