@@ -37,4 +37,5 @@ public class ModelPrediction
     /// <summary>
     ///     PredictTags predicts an image's tags.
     /// </summary>
-    /// <pa
+    /// <param name="imagePath">The path to the image file.</param>
+    /// <
