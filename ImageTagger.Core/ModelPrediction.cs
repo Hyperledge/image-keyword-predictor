@@ -39,4 +39,5 @@ public class ModelPrediction
     /// </summary>
     /// <param name="imagePath">The path to the image file.</param>
     /// <returns>A <see cref="Prediction" /> enumerable.</returns>
-    publi
+    public IEnumerable<Prediction> PredictTags(string imagePath)
+  
