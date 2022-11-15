@@ -40,4 +40,6 @@ public class ModelPrediction
     /// <param name="imagePath">The path to the image file.</param>
     /// <returns>A <see cref="Prediction" /> enumerable.</returns>
     public IEnumerable<Prediction> PredictTags(string imagePath)
-  
+    {
+        // Setup inputs
+        var inputs
