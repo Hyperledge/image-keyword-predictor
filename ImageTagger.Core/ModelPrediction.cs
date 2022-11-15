@@ -42,4 +42,6 @@ public class ModelPrediction
     public IEnumerable<Prediction> PredictTags(string imagePath)
     {
         // Setup inputs
-        var inputs
+        var inputs = new List<NamedOnnxValue>
+        {
+            Name
