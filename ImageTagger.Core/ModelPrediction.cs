@@ -44,4 +44,7 @@ public class ModelPrediction
         // Setup inputs
         var inputs = new List<NamedOnnxValue>
         {
-            NamedOnnxValue.CreateFromTensor("input.1", _imag
+            NamedOnnxValue.CreateFromTensor("input.1", _imageProcessor.ProcessImage(imagePath))
+        };
+
+        usi
