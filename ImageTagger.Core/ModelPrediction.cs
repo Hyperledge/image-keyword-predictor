@@ -49,4 +49,5 @@ public class ModelPrediction
 
         using IDisposableReadOnlyCollection<DisposableNamedOnnxValue> results = _inferenceSession.Run(inputs);
 
-        // Post process
+        // Post process output vector.
+        var output = results.First().AsEnu
