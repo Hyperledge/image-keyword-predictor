@@ -47,4 +47,4 @@ public class ModelPrediction
             NamedOnnxValue.CreateFromTensor("input.1", _imageProcessor.ProcessImage(imagePath))
         };
 
-        usi
+        using IDisposableReadOnlyCollection<DisposableNamedOnnxValue> resul
