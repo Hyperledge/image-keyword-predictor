@@ -53,4 +53,4 @@ public class ModelPrediction
         var output = results.First().AsEnumerable<float>();
 
         var predictionResults = output
-            .Select((confide
+            .Select((confidence, labelIndex) => new Prediction(_labelsRegistry[label
