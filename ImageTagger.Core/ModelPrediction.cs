@@ -52,4 +52,5 @@ public class ModelPrediction
         // Post process output vector.
         var output = results.First().AsEnumerable<float>();
 
-        var predictionRe
+        var predictionResults = output
+            .Select((confide
