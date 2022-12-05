@@ -54,4 +54,6 @@ public class ModelPrediction
 
         var predictionResults = output
             .Select((confidence, labelIndex) => new Prediction(_labelsRegistry[labelIndex], confidence))
-            .OrderBy(x => x
+            .OrderBy(x => x.Confidence).ToList();
+
+        return pred
