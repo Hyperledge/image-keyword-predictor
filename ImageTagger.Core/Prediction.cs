@@ -5,3 +5,4 @@
 /// </summary>
 /// <param name="Label">The prediction label / category.</param>
 /// <param name="Confidence">The confidence level of the prediction. Higher is better.</param>
+public record Prediction(string Label, float C
