@@ -1,3 +1,5 @@
 using System.Reflection;
 
-namespace ImageT
+namespace ImageTagger.Core.Tests;
+
+public class ImageProc
