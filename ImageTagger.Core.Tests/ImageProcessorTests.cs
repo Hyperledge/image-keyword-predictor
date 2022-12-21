@@ -4,4 +4,5 @@ namespace ImageTagger.Core.Tests;
 
 public class ImageProcessorTests
 {
-    private readonly ImageProcessor _
+    private readonly ImageProcessor _imageProcessor;
+    private read
