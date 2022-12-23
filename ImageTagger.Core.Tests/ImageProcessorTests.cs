@@ -10,4 +10,5 @@ public class ImageProcessorTests
     public ImageProcessorTests()
     {
         var assemblyBasePath = Assembly.GetExecutingAssembly().Location;
-        var assemblyPath = Path.Ge
+        var assemblyPath = Path.GetDirectoryName(assemblyBasePath);
+        _tes
