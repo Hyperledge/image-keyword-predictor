@@ -7,4 +7,6 @@ public class ImageProcessorTests
     private readonly ImageProcessor _imageProcessor;
     private readonly string _testImagePath;
 
-    public ImageProcessorTes
+    public ImageProcessorTests()
+    {
+        var assemblyBasePath = Assembly.GetExec
