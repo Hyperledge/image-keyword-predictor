@@ -12,4 +12,8 @@ public class ImageProcessorTests
         var assemblyBasePath = Assembly.GetExecutingAssembly().Location;
         var assemblyPath = Path.GetDirectoryName(assemblyBasePath);
         _testImagePath = Path.Join(assemblyPath, "resources", "test-image.jpg");
-        _imageProcessor = new Image
+        _imageProcessor = new ImageProcessor();
+    }
+
+    [Fact]
+    public void Test_Pro
