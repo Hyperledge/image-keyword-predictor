@@ -18,4 +18,5 @@ public class ImageProcessorTests
     [Fact]
     public void Test_ProcessImage_CorrectShape()
     {
-        // Test: Process the i
+        // Test: Process the image.
+        var image = _imageProcessor.Pr
