@@ -16,4 +16,6 @@ public class ImageProcessorTests
     }
 
     [Fact]
-    public void Test_Pro
+    public void Test_ProcessImage_CorrectShape()
+    {
+        // Test: Process the i
