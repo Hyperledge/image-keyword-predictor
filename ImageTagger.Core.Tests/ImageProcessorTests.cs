@@ -22,4 +22,6 @@ public class ImageProcessorTests
         var image = _imageProcessor.ProcessImage(_testImagePath);
 
         // Assert: The image is not null.
-        Assert.
+        Assert.NotNull(image);
+
+        // Assert: The tensor ha
