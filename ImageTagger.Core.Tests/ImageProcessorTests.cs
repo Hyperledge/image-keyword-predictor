@@ -19,4 +19,6 @@ public class ImageProcessorTests
     public void Test_ProcessImage_CorrectShape()
     {
         // Test: Process the image.
-        var image = _imageProcessor.Pr
+        var image = _imageProcessor.ProcessImage(_testImagePath);
+
+        // Asser
