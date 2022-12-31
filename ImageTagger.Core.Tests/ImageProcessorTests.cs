@@ -21,4 +21,5 @@ public class ImageProcessorTests
         // Test: Process the image.
         var image = _imageProcessor.ProcessImage(_testImagePath);
 
-        // Asser
+        // Assert: The image is not null.
+        Assert.
