@@ -25,4 +25,5 @@ public class ImageProcessorTests
         Assert.NotNull(image);
 
         // Assert: The tensor has the correct shape.
-        var expected
+        var expectedShape = new[] { 1, 3, 224, 224 };
+        for (var
