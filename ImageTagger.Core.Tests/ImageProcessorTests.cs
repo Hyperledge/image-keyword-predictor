@@ -24,4 +24,5 @@ public class ImageProcessorTests
         // Assert: The image is not null.
         Assert.NotNull(image);
 
-        // Assert: The tensor ha
+        // Assert: The tensor has the correct shape.
+        var expected
