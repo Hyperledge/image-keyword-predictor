@@ -27,4 +27,5 @@ public class ImageProcessorTests
         // Assert: The tensor has the correct shape.
         var expectedShape = new[] { 1, 3, 224, 224 };
         for (var i = 0; i < expectedShape.Length; i++)
-      
+        {
+            Assert.True(expectedShape
