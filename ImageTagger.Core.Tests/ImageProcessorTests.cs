@@ -28,4 +28,7 @@ public class ImageProcessorTests
         var expectedShape = new[] { 1, 3, 224, 224 };
         for (var i = 0; i < expectedShape.Length; i++)
         {
-            Assert.True(expectedShape
+            Assert.True(expectedShape[i] == image.Dimensions[i]);
+        }
+    }
+}
