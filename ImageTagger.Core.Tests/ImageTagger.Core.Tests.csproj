@@ -1,1 +1,4 @@
-<Proj
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+    
