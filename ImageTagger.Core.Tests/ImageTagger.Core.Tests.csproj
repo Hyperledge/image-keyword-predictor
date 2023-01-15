@@ -10,4 +10,4 @@
     </PropertyGroup>
 
     <ItemGroup>
-   
+        <PackageReference Include="Microsoft.
