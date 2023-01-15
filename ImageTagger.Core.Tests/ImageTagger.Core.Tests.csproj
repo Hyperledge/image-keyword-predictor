@@ -10,4 +10,5 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0"/>
+        <PackageRefer
