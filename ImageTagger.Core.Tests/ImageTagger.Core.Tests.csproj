@@ -23,4 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\ImageTagger.Co
+        <ProjectReference Include="..\ImageTagger.Core\ImageTagger.Core.csproj"/>
+    </ItemGroup>
+
+   
