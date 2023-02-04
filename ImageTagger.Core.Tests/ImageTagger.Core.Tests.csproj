@@ -26,4 +26,5 @@
         <ProjectReference Include="..\ImageTagger.Core\ImageTagger.Core.csproj"/>
     </ItemGroup>
 
-   
+    <!--    Copy resources to output directory-->
+    <I
