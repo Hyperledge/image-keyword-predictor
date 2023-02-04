@@ -29,4 +29,5 @@
     <!--    Copy resources to output directory-->
     <ItemGroup>
         <ContentWithTargetPath Include="resources\**">
-            <CopyToOutputDirector
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+       
