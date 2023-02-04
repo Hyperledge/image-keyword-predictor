@@ -27,4 +27,5 @@
     </ItemGroup>
 
     <!--    Copy resources to output directory-->
-    <I
+    <ItemGroup>
+        <ContentWithTargetPath Include="
