@@ -28,4 +28,5 @@
 
     <!--    Copy resources to output directory-->
     <ItemGroup>
-        <ContentWithTargetPath Include="
+        <ContentWithTargetPath Include="resources\**">
+            <CopyToOutputDirector
