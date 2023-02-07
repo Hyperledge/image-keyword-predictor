@@ -1,1 +1,5 @@
-namespace ImageTagger.Core.
+namespace ImageTagger.Core.Tests;
+
+public class LabelRegistryTests
+{
+    [F
