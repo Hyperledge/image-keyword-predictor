@@ -32,4 +32,6 @@
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <TargetPath>resources\%(Filename)%(Extension)</TargetPath>
         </ContentWithTargetPath>
-    </
+    </ItemGroup>
+
+</Project>
