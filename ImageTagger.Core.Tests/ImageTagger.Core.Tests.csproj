@@ -30,4 +30,6 @@
     <ItemGroup>
         <ContentWithTargetPath Include="resources\**">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <TargetPath>resources\%(Filename)%(Extension)</T
+            <TargetPath>resources\%(Filename)%(Extension)</TargetPath>
+        </ContentWithTargetPath>
+    </
