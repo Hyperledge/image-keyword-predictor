@@ -2,4 +2,7 @@ namespace ImageTagger.Core.Tests;
 
 public class LabelRegistryTests
 {
-    [F
+    [Fact]
+    public void Test_LabelRegistry_FileOk()
+    {
+ 
