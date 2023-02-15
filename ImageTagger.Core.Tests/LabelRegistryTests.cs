@@ -8,4 +8,6 @@ public class LabelRegistryTests
         // Setup: Create a temporary labels file.
         var labels = new List<string>
         {
-         
+            "label1",
+            "label2",
+            "la
