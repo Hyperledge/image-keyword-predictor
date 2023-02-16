@@ -12,4 +12,5 @@ public class LabelRegistryTests
             "label2",
             "label3"
         };
-        var labelsFile = Pat
+        var labelsFile = Path.GetTempFileName();
+        File.WriteAllLines(labelsFile,
