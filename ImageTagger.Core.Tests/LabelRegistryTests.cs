@@ -10,4 +10,6 @@ public class LabelRegistryTests
         {
             "label1",
             "label2",
-            "la
+            "label3"
+        };
+        var labelsFile = Pat
