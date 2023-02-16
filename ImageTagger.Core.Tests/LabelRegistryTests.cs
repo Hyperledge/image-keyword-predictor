@@ -13,4 +13,6 @@ public class LabelRegistryTests
             "label3"
         };
         var labelsFile = Path.GetTempFileName();
-        File.WriteAllLines(labelsFile,
+        File.WriteAllLines(labelsFile, labels);
+
+        // Test: Create a new LabelsRe
