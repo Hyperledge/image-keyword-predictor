@@ -15,4 +15,5 @@ public class LabelRegistryTests
         var labelsFile = Path.GetTempFileName();
         File.WriteAllLines(labelsFile, labels);
 
-        // Test: Create a new LabelsRe
+        // Test: Create a new LabelsRegistry instance.
+        var labelsRegistry = new Labe
