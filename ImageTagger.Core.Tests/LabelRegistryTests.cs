@@ -16,4 +16,6 @@ public class LabelRegistryTests
         File.WriteAllLines(labelsFile, labels);
 
         // Test: Create a new LabelsRegistry instance.
-        var labelsRegistry = new Labe
+        var labelsRegistry = new LabelsRegistry(labelsFile);
+
+        // Ver
