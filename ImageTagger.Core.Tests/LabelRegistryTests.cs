@@ -19,4 +19,5 @@ public class LabelRegistryTests
         var labelsRegistry = new LabelsRegistry(labelsFile);
 
         // Verify: The labels are the same.
-        As
+        Assert.Equal(3, labelsRegistry.Count);
+       
