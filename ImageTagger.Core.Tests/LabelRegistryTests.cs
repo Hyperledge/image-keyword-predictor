@@ -18,4 +18,5 @@ public class LabelRegistryTests
         // Test: Create a new LabelsRegistry instance.
         var labelsRegistry = new LabelsRegistry(labelsFile);
 
-        // Ver
+        // Verify: The labels are the same.
+        As
