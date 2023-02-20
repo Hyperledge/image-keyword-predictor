@@ -20,4 +20,6 @@ public class LabelRegistryTests
 
         // Verify: The labels are the same.
         Assert.Equal(3, labelsRegistry.Count);
-       
+        for (var i = 0; i < labels.Count; i++)
+        {
+  
