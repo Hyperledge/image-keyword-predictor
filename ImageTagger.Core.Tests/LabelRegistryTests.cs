@@ -22,4 +22,4 @@ public class LabelRegistryTests
         Assert.Equal(3, labelsRegistry.Count);
         for (var i = 0; i < labels.Count; i++)
         {
-  
+            Assert.Equal(labels[i], labelsRe
