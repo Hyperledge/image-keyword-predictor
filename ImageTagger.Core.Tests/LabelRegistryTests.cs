@@ -29,4 +29,5 @@ public class LabelRegistryTests
     [Fact]
     public void Test_LabelRegistry_FileEmpty()
     {
-        // Setup:
+        // Setup: Create a temporary labels file.
+  
