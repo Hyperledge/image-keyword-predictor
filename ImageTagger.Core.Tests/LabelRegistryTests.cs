@@ -32,4 +32,5 @@ public class LabelRegistryTests
         // Setup: Create a temporary labels file.
         var labelsFile = Path.GetTempFileName();
 
-      
+        // Test: Create a new LabelsRegistry instance.
+       
