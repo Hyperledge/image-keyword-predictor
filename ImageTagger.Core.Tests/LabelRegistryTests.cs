@@ -27,4 +27,6 @@ public class LabelRegistryTests
     }
 
     [Fact]
-    public void T
+    public void Test_LabelRegistry_FileEmpty()
+    {
+        // Setup:
