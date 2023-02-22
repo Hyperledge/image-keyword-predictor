@@ -30,4 +30,6 @@ public class LabelRegistryTests
     public void Test_LabelRegistry_FileEmpty()
     {
         // Setup: Create a temporary labels file.
-  
+        var labelsFile = Path.GetTempFileName();
+
+      
