@@ -33,4 +33,4 @@ public class LabelRegistryTests
         var labelsFile = Path.GetTempFileName();
 
         // Test: Create a new LabelsRegistry instance.
-       
+        var labelsRegistry = new LabelsRegistry(labels
