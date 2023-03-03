@@ -35,4 +35,6 @@ public class LabelRegistryTests
         // Test: Create a new LabelsRegistry instance.
         var labelsRegistry = new LabelsRegistry(labelsFile);
 
-        // Verify: The labels are the sam
+        // Verify: The labels are the same.
+        Assert.Equal(0, labelsRegistry.Count);
+    }
