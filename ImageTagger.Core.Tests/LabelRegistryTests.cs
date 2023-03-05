@@ -38,3 +38,6 @@ public class LabelRegistryTests
         // Verify: The labels are the same.
         Assert.Equal(0, labelsRegistry.Count);
     }
+
+    [Fact]
+    public void Test_LabelRegistry_Fil
