@@ -40,4 +40,6 @@ public class LabelRegistryTests
     }
 
     [Fact]
-    public void Test_LabelRegistry_Fil
+    public void Test_LabelRegistry_FileDoesNotExist()
+    {
+        // Setup: Cre
