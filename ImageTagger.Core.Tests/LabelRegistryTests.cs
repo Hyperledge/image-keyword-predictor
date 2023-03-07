@@ -42,4 +42,5 @@ public class LabelRegistryTests
     [Fact]
     public void Test_LabelRegistry_FileDoesNotExist()
     {
-        // Setup: Cre
+        // Setup: Create a temporary labels file.
+        var lab
