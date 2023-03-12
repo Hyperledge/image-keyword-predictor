@@ -46,4 +46,5 @@ public class LabelRegistryTests
         var labelsFile = Path.GetTempFileName();
         File.Delete(labelsFile);
 
-        // Test: Create a new LabelsRegist
+        // Test: Create a new LabelsRegistry instance.
+        Assert.Throws<FileNotFound
