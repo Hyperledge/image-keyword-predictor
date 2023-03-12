@@ -43,4 +43,5 @@ public class LabelRegistryTests
     public void Test_LabelRegistry_FileDoesNotExist()
     {
         // Setup: Create a temporary labels file.
-        var lab
+        var labelsFile = Path.GetTempFileName();
+        File.Delete(labelsF
