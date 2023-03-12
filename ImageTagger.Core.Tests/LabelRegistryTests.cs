@@ -47,4 +47,4 @@ public class LabelRegistryTests
         File.Delete(labelsFile);
 
         // Test: Create a new LabelsRegistry instance.
-        Assert.Throws<FileNotFound
+        Assert.Throws<FileNotFoundException>(() => new LabelsRegistry(labelsFile));
