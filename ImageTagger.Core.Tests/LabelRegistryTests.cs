@@ -44,4 +44,6 @@ public class LabelRegistryTests
     {
         // Setup: Create a temporary labels file.
         var labelsFile = Path.GetTempFileName();
-        File.Delete(labelsF
+        File.Delete(labelsFile);
+
+        // Test: Create a new LabelsRegist
