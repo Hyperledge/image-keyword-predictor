@@ -48,3 +48,5 @@ public class LabelRegistryTests
 
         // Test: Create a new LabelsRegistry instance.
         Assert.Throws<FileNotFoundException>(() => new LabelsRegistry(labelsFile));
+    }
+}
