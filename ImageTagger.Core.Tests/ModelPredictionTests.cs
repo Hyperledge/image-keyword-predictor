@@ -1,3 +1,5 @@
 using System.Reflection;
 
-namespace ImageTagge
+namespace ImageTagger.Core.Tests;
+
+public class ModelPrediction
