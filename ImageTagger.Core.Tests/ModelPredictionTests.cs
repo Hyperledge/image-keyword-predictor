@@ -4,4 +4,5 @@ namespace ImageTagger.Core.Tests;
 
 public class ModelPredictionTests
 {
-    private readonly ModelPrediction _mod
+    private readonly ModelPrediction _modelPrediction;
+    private readonly string _test
