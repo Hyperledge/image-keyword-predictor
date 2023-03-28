@@ -9,4 +9,4 @@ public class ModelPredictionTests
 
     public ModelPredictionTests()
     {
-        var assemblyBasePa
+        var assemblyBasePath = Assembly.GetExecutingAssembly()
