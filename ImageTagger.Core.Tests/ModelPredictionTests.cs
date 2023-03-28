@@ -7,4 +7,6 @@ public class ModelPredictionTests
     private readonly ModelPrediction _modelPrediction;
     private readonly string _testArchitectureImagePath;
 
-    public ModelPredi
+    public ModelPredictionTests()
+    {
+        var assemblyBasePa
