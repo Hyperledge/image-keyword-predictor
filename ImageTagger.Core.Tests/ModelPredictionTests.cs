@@ -10,4 +10,6 @@ public class ModelPredictionTests
     public ModelPredictionTests()
     {
         var assemblyBasePath = Assembly.GetExecutingAssembly().Location;
-        var assemblyPath = Path.GetDirectoryN
+        var assemblyPath = Path.GetDirectoryName(assemblyBasePath);
+
+        _testArchitectureImageP
