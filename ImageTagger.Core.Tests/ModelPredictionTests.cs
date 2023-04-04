@@ -14,4 +14,4 @@ public class ModelPredictionTests
 
         _testArchitectureImagePath = Path.Join(assemblyPath, "resources", "test-image.jpg");
         _modelPrediction = new ModelPrediction(
-          
+            Path.Join(assemblyPath, "AIModels", "resnet50.onnx
