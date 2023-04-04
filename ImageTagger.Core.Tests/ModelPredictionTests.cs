@@ -12,4 +12,6 @@ public class ModelPredictionTests
         var assemblyBasePath = Assembly.GetExecutingAssembly().Location;
         var assemblyPath = Path.GetDirectoryName(assemblyBasePath);
 
-        _testArchitectureImagePath = Path.Join(assemblyPath, "resources", "test-image.jpg"
+        _testArchitectureImagePath = Path.Join(assemblyPath, "resources", "test-image.jpg");
+        _modelPrediction = new ModelPrediction(
+          
