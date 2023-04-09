@@ -17,3 +17,7 @@ public class ModelPredictionTests
             Path.Join(assemblyPath, "AIModels", "resnet50.onnx"),
             Path.Join(assemblyPath, "AIModels", "resnet50_categories.txt")
         );
+    }
+
+    [Fact]
+    public void Test_PredictTags_Archi
