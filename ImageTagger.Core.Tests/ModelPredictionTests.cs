@@ -20,4 +20,7 @@ public class ModelPredictionTests
     }
 
     [Fact]
-    public void Test_PredictTags_Archi
+    public void Test_PredictTags_Architecture()
+    {
+        // Test: Predict the tags.
+    
