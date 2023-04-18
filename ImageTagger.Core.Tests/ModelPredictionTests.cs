@@ -23,4 +23,7 @@ public class ModelPredictionTests
     public void Test_PredictTags_Architecture()
     {
         // Test: Predict the tags.
-        var tags = _modelPrediction.PredictTags(_testAr
+        var tags = _modelPrediction.PredictTags(_testArchitectureImagePath);
+
+        // Assert
+      
