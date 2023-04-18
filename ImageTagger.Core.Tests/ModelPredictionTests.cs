@@ -26,4 +26,5 @@ public class ModelPredictionTests
         var tags = _modelPrediction.PredictTags(_testArchitectureImagePath);
 
         // Assert
-      
+        Assert.NotNull(tags);
+        var architect
