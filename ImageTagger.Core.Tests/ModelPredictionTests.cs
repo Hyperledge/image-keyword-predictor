@@ -27,4 +27,4 @@ public class ModelPredictionTests
 
         // Assert
         Assert.NotNull(tags);
-        var architect
+        var architectureTag = tags.FirstOrDefault(x => x.Label 
