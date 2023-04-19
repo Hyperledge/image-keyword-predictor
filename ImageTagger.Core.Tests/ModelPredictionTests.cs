@@ -28,4 +28,6 @@ public class ModelPredictionTests
         // Assert
         Assert.NotNull(tags);
         var architectureTag = tags.FirstOrDefault(x => x.Label == "architecture" && x.Confidence > -0.5);
-   
+        Assert.NotNull(architectureTag);
+    }
+}
