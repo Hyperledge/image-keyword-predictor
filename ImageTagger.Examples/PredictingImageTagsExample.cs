@@ -1,1 +1,4 @@
-﻿using ImageTagger.Co
+﻿using ImageTagger.Core;
+
+/*
+ * Example use of ImageTagger core librar
