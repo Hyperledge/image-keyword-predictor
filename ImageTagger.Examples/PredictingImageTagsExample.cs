@@ -5,4 +5,5 @@
  */
 
 
-// Specify the paths to the model an
+// Specify the paths to the model and labels files.
+const string modelPath 
