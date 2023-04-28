@@ -6,4 +6,4 @@
 
 
 // Specify the paths to the model and labels files.
-const string modelPath 
+const string modelPath = @"RiderProjects\ImageTagger\ImageTagger.Core\AIM
