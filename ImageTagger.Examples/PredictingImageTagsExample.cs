@@ -7,4 +7,6 @@
 
 // Specify the paths to the model and labels files.
 const string modelPath = @"RiderProjects\ImageTagger\ImageTagger.Core\AIModels\prediction.onnx";
-const string labelsPath = @"RiderProjects\ImageTagger\ImageTagger.C
+const string labelsPath = @"RiderProjects\ImageTagger\ImageTagger.Core\AIModels\prediction_categories.txt";
+
+// Create a ne
