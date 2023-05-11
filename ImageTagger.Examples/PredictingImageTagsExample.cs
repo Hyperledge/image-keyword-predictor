@@ -13,4 +13,6 @@ const string labelsPath = @"RiderProjects\ImageTagger\ImageTagger.Core\AIModels\
 var modelPrediction = new ModelPrediction(modelPath, labelsPath);
 
 // Predict tags for the images from 1.jpg to 12.jpg.
-for (v
+for (var i = 1; i <= 12; i++)
+{
+    Console.WriteLine(
