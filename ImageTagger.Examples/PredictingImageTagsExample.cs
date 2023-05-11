@@ -10,4 +10,6 @@ const string modelPath = @"RiderProjects\ImageTagger\ImageTagger.Core\AIModels\p
 const string labelsPath = @"RiderProjects\ImageTagger\ImageTagger.Core\AIModels\prediction_categories.txt";
 
 // Create a new instance of ModelPrediction.
-var modelPrediction = new Mo
+var modelPrediction = new ModelPrediction(modelPath, labelsPath);
+
+// Predic
