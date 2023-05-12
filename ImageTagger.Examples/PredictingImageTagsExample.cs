@@ -15,4 +15,5 @@ var modelPrediction = new ModelPrediction(modelPath, labelsPath);
 // Predict tags for the images from 1.jpg to 12.jpg.
 for (var i = 1; i <= 12; i++)
 {
-    Console.WriteLine(
+    Console.WriteLine($"Predicting... {i}.jpg");
+    var prediction = modelPredi
