@@ -16,4 +16,4 @@ var modelPrediction = new ModelPrediction(modelPath, labelsPath);
 for (var i = 1; i <= 12; i++)
 {
     Console.WriteLine($"Predicting... {i}.jpg");
-    var prediction = modelPredi
+    var prediction = modelPrediction.PredictTags($@"Documents\i\{i}.jpg")
