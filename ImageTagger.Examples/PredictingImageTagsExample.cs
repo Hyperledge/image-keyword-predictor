@@ -18,4 +18,5 @@ for (var i = 1; i <= 12; i++)
     Console.WriteLine($"Predicting... {i}.jpg");
     var prediction = modelPrediction.PredictTags($@"Documents\i\{i}.jpg");
 
-    // Print the predictions and their confid
+    // Print the predictions and their confidence.
+    // Filter out the predictions with co
