@@ -19,4 +19,5 @@ for (var i = 1; i <= 12; i++)
     var prediction = modelPrediction.PredictTags($@"Documents\i\{i}.jpg");
 
     // Print the predictions and their confidence.
-    // Filter out the predictions with co
+    // Filter out the predictions with confidence lower than -0.5.
+    foreach (var pred in prediction.Wher
