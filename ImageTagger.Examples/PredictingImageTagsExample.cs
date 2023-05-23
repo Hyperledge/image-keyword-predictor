@@ -20,4 +20,4 @@ for (var i = 1; i <= 12; i++)
 
     // Print the predictions and their confidence.
     // Filter out the predictions with confidence lower than -0.5.
-    foreach (var pred in prediction.Wher
+    foreach (var pred in prediction.Where(prediction => prediction.Confidence > -0.5)
