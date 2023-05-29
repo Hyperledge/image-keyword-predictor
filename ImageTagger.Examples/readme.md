@@ -1,3 +1,3 @@
 # ImageTagger.Examples
 
-Thi
+This project contains examples of how to use the ImageTagger l
