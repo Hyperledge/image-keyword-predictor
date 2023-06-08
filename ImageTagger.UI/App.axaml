@@ -3,4 +3,4 @@
              x:Class="ImageTagger.UI.App"
              xmlns:local="using:ImageTagger.UI"
              RequestedThemeVariant="Default">
-    <!-- "Default" ThemeVariant fol
+    <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are ot
