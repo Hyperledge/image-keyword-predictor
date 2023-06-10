@@ -7,4 +7,6 @@
 
     <Application.DataTemplates>
         <local:ViewLocator />
-    </App
+    </Application.DataTemplates>
+
+    <Application.Styles>
