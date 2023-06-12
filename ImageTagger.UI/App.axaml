@@ -10,3 +10,5 @@
     </Application.DataTemplates>
 
     <Application.Styles>
+        <FluentTheme />
+        <StyleInclu
