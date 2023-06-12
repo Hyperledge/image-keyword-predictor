@@ -11,4 +11,4 @@
 
     <Application.Styles>
         <FluentTheme />
-        <StyleInclu
+        <StyleInclude Source="avares://ImageTagger.UI/Contro
