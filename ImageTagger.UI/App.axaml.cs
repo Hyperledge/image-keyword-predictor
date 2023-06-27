@@ -8,3 +8,5 @@ using ImageTagger.UI.Views.MainWindow;
 namespace ImageTagger.UI;
 
 /// <summary>
+///     App is the entry point of the application.
+/// </sum
