@@ -12,4 +12,5 @@ namespace ImageTagger.UI;
 /// </summary>
 public class App : Application
 {
-    
+    public override void Initialize()
+    {
