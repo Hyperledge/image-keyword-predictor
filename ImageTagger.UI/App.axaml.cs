@@ -9,4 +9,7 @@ namespace ImageTagger.UI;
 
 /// <summary>
 ///     App is the entry point of the application.
-/// </sum
+/// </summary>
+public class App : Application
+{
+    
