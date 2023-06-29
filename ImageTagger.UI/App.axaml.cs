@@ -17,4 +17,7 @@ public class App : Application
         AvaloniaXamlLoader.Load(this);
     }
 
-    public override void OnFrameworkIni
+    public override void OnFrameworkInitializationCompleted()
+    {
+        // Gather the services.
+     
