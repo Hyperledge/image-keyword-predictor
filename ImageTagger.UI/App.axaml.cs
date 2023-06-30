@@ -21,4 +21,6 @@ public class App : Application
     {
         // Gather the services.
         var fileDialogService = new FileDialogService();
-        var modelInferenceService = new ModelInferenceSer
+        var modelInferenceService = new ModelInferenceService();
+
+        if (ApplicationLifetime i
