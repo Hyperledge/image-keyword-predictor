@@ -20,4 +20,5 @@ public class App : Application
     public override void OnFrameworkInitializationCompleted()
     {
         // Gather the services.
-     
+        var fileDialogService = new FileDialogService();
+  
