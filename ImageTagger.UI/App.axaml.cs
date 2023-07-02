@@ -23,4 +23,5 @@ public class App : Application
         var fileDialogService = new FileDialogService();
         var modelInferenceService = new ModelInferenceService();
 
-        if (ApplicationLifetime i
+        if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
+     
