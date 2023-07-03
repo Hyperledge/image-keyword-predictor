@@ -24,4 +24,6 @@ public class App : Application
         var modelInferenceService = new ModelInferenceService();
 
         if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
-     
+        {
+            if (desktop.Args?.Length > 0)
+          
