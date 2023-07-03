@@ -26,4 +26,4 @@ public class App : Application
         if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
         {
             if (desktop.Args?.Length > 0)
-          
+                desktop.MainWindow = new MainWin
