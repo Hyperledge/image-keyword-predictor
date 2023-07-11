@@ -28,4 +28,5 @@ public class App : Application
             if (desktop.Args?.Length > 0)
                 desktop.MainWindow = new MainWindow(
                     fileDialogService,
-         
+                    modelInferenceService,
+          
