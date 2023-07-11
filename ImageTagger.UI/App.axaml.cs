@@ -29,4 +29,5 @@ public class App : Application
                 desktop.MainWindow = new MainWindow(
                     fileDialogService,
                     modelInferenceService,
-          
+                    desktop.Args ?? Array.Empty<string>());
+ 
