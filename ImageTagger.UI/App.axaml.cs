@@ -31,4 +31,4 @@ public class App : Application
                     modelInferenceService,
                     desktop.Args ?? Array.Empty<string>());
             else
-                desktop.MainWindow = ne
+                desktop.MainWindow = new MainWindow(fileDialogService, modelInfer
