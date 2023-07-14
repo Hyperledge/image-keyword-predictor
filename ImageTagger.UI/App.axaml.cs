@@ -34,4 +34,6 @@ public class App : Application
                 desktop.MainWindow = new MainWindow(fileDialogService, modelInferenceService);
         }
 
-        base.OnFramewo
+        base.OnFrameworkInitializationCompleted();
+    }
+}

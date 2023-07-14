@@ -1,0 +1,21 @@
+
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="using:ImageTagger.UI.Controls">
+    <Design.PreviewWith>
+        <controls:ImagePredictionRow />
+    </Design.PreviewWith>
+
+    <Style Selector="controls|ImagePredictionRow">
+        <!-- Set Defaults -->
+        <Setter Property="Template">
+            <ControlTemplate>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" MaxHeight="224" />
+                        <RowDefinition Height="Auto" MaxHeight="100" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="224" MaxWidth="224" />
+                        <ColumnDefinition Width="380" MaxWidth="380" />
