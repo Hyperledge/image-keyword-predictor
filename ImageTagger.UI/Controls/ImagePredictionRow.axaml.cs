@@ -5,4 +5,5 @@ using Avalonia.Media.Imaging;
 using Avalonia.Metadata;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
-using SixLabors.ImageSha
+using SixLabors.ImageSharp.Processing;
+using Size = SixLabors.ImageSharp.
