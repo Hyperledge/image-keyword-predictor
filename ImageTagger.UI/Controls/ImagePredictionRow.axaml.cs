@@ -6,4 +6,6 @@ using Avalonia.Metadata;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
-using Size = SixLabors.ImageSharp.
+using Size = SixLabors.ImageSharp.Size;
+
+namespace ImageTagger.UI.Controls
