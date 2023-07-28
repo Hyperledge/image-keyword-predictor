@@ -11,4 +11,6 @@ using Size = SixLabors.ImageSharp.Size;
 namespace ImageTagger.UI.Controls;
 
 /// <summary>
-///     ImagePredictionRow is a custom control used to display an ima
+///     ImagePredictionRow is a custom control used to display an image and its predicted tags.
+/// </summary>
+publ
