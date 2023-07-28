@@ -8,4 +8,7 @@ using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
 using Size = SixLabors.ImageSharp.Size;
 
-namespace ImageTagger.UI.Controls
+namespace ImageTagger.UI.Controls;
+
+/// <summary>
+///     ImagePredictionR
