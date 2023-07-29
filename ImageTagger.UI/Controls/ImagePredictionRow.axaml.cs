@@ -13,4 +13,4 @@ namespace ImageTagger.UI.Controls;
 /// <summary>
 ///     ImagePredictionRow is a custom control used to display an image and its predicted tags.
 /// </summary>
-publ
+public class ImagePredictionRow : TemplatedControl
