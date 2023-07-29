@@ -16,4 +16,6 @@ namespace ImageTagger.UI.Controls;
 public class ImagePredictionRow : TemplatedControl
 {
     /// <summary>
-    ///     Defines the Predic
+    ///     Defines the PredictedImageTags property.
+    /// </summary>
+    public stat
