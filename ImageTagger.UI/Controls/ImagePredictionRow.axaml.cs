@@ -22,4 +22,5 @@ public class ImagePredictionRow : TemplatedControl
         AvaloniaProperty.Register<ImagePredictionRow, string>(nameof(PredictedImageTagsProperty));
 
     /// <summary>
-    /
+    ///     Defines the Image property.
+    /// <
