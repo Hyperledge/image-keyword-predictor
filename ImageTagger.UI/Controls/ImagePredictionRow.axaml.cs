@@ -24,4 +24,5 @@ public class ImagePredictionRow : TemplatedControl
     /// <summary>
     ///     Defines the Image property.
     /// </summary>
-    public static readonly Avalonia
+    public static readonly AvaloniaProperty<Bitmap> ImageProperty =
+        AvaloniaProp
