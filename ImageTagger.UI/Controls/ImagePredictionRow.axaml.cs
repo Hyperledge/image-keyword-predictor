@@ -25,4 +25,4 @@ public class ImagePredictionRow : TemplatedControl
     ///     Defines the Image property.
     /// </summary>
     public static readonly AvaloniaProperty<Bitmap> ImageProperty =
-        AvaloniaProp
+        AvaloniaProperty.Register<ImagePredictionRow, Bitmap>(
