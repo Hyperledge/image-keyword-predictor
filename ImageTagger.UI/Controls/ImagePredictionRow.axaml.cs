@@ -28,4 +28,5 @@ public class ImagePredictionRow : TemplatedControl
         AvaloniaProperty.Register<ImagePredictionRow, Bitmap>(nameof(ImageProperty));
 
     /// <summary>
-    ///    
+    ///     Defines the ImageFileName property.
+    /// </summary
