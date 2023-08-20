@@ -29,4 +29,5 @@ public class ImagePredictionRow : TemplatedControl
 
     /// <summary>
     ///     Defines the ImageFileName property.
-    /// </summary
+    /// </summary>
+    public static readonly AvaloniaPro
