@@ -31,4 +31,6 @@ public class ImagePredictionRow : TemplatedControl
     ///     Defines the ImageFileName property.
     /// </summary>
     public static readonly AvaloniaProperty<string> ImageFileNameProperty =
-        AvaloniaProperty.Register<ImagePredictionRow, string>(nameof(ImageFileNamePr
+        AvaloniaProperty.Register<ImagePredictionRow, string>(nameof(ImageFileNameProperty));
+
+    private readonly string _imag
