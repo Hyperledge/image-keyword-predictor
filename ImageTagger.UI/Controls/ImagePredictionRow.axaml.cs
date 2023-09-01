@@ -36,4 +36,4 @@ public class ImagePredictionRow : TemplatedControl
     private readonly string _imageFilePath;
 
     /// <summary>
-    //
+    ///     Constructs a new instance of ImagePredictionRow
