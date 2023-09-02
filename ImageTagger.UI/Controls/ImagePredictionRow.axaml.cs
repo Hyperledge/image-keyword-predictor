@@ -39,4 +39,4 @@ public class ImagePredictionRow : TemplatedControl
     ///     Constructs a new instance of ImagePredictionRow.
     /// </summary>
     /// <param name="predictedImageTags">The predicted image tags text.</param>
-    /// <pa
+    /// <param name="imagePath">The image file path.</para
