@@ -42,4 +42,4 @@ public class ImagePredictionRow : TemplatedControl
     /// <param name="imagePath">The image file path.</param>
     public ImagePredictionRow(string predictedImageTags, string imagePath)
     {
-     
+        PredictedImageTags = predic
