@@ -40,4 +40,6 @@ public class ImagePredictionRow : TemplatedControl
     /// </summary>
     /// <param name="predictedImageTags">The predicted image tags text.</param>
     /// <param name="imagePath">The image file path.</param>
-    public ImagePredictionRow(string pred
+    public ImagePredictionRow(string predictedImageTags, string imagePath)
+    {
+     
