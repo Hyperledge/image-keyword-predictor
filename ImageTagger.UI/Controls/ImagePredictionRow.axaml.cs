@@ -43,4 +43,5 @@ public class ImagePredictionRow : TemplatedControl
     public ImagePredictionRow(string predictedImageTags, string imagePath)
     {
         PredictedImageTags = predictedImageTags;
-        _imageFilePath = imagePath
+        _imageFilePath = imagePath;
+        // Set the image file name to the file name of the imag
