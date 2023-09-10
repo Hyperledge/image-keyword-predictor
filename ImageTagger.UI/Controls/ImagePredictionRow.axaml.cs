@@ -44,4 +44,5 @@ public class ImagePredictionRow : TemplatedControl
     {
         PredictedImageTags = predictedImageTags;
         _imageFilePath = imagePath;
-        // Set the image file name to the file name of the imag
+        // Set the image file name to the file name of the image path.
+        ImageFileName = Path.GetFileName
