@@ -46,4 +46,9 @@ public class ImagePredictionRow : TemplatedControl
         _imageFilePath = imagePath;
         // Set the image file name to the file name of the image path.
         ImageFileName = Path.GetFileName(imagePath);
-        // Load the bitmap
+        // Load the bitmap image.
+        LoadBitmap();
+    }
+
+
+ 
