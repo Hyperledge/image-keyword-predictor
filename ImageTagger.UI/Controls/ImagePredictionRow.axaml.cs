@@ -52,4 +52,6 @@ public class ImagePredictionRow : TemplatedControl
 
 
     /// <summary>
-    ///     The predicted image
+    ///     The predicted image tags text.
+    /// </summary>
+    [Con
