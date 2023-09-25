@@ -58,4 +58,4 @@ public class ImagePredictionRow : TemplatedControl
     public string? PredictedImageTags
     {
         get => GetValue(PredictedImageTagsProperty) as string;
-  
+        set => SetValue(PredictedImageTagsP
