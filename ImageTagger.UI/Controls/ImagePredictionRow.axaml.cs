@@ -62,4 +62,6 @@ public class ImagePredictionRow : TemplatedControl
     }
 
     /// <summary>
-    ///    
+    ///     The Bitmap image.
+    /// </summary>
+    [Conte
