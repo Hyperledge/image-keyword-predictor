@@ -64,4 +64,7 @@ public class ImagePredictionRow : TemplatedControl
     /// <summary>
     ///     The Bitmap image.
     /// </summary>
-    [Conte
+    [Content]
+    public Bitmap? Image
+    {
+        get => GetValu
