@@ -71,4 +71,6 @@ public class ImagePredictionRow : TemplatedControl
         set => SetValue(ImageProperty, value);
     }
 
-    /// <sum
+    /// <summary>
+    ///     The image file name.
+    /// 
