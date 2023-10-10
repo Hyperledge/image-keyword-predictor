@@ -68,4 +68,7 @@ public class ImagePredictionRow : TemplatedControl
     public Bitmap? Image
     {
         get => GetValue(ImageProperty) as Bitmap;
-        set 
+        set => SetValue(ImageProperty, value);
+    }
+
+    /// <sum
