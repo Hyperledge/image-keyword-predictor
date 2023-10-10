@@ -73,4 +73,6 @@ public class ImagePredictionRow : TemplatedControl
 
     /// <summary>
     ///     The image file name.
-    /// 
+    /// </summary>
+    [Content]
+    public string
