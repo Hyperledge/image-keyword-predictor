@@ -75,4 +75,6 @@ public class ImagePredictionRow : TemplatedControl
     ///     The image file name.
     /// </summary>
     [Content]
-    public string
+    public string? ImageFileName
+    {
+        get => GetValue(ImageFile
