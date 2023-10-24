@@ -78,4 +78,7 @@ public class ImagePredictionRow : TemplatedControl
     public string? ImageFileName
     {
         get => GetValue(ImageFileNameProperty) as string;
-        set => SetValue(Imag
+        set => SetValue(ImageFileNameProperty, value);
+    }
+
+    /// <summary>
