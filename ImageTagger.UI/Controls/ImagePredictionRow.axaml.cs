@@ -82,3 +82,4 @@ public class ImagePredictionRow : TemplatedControl
     }
 
     /// <summary>
+    ///     Loads the bitmap image from given path and pre-process
