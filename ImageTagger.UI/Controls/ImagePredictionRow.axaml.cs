@@ -85,3 +85,5 @@ public class ImagePredictionRow : TemplatedControl
     ///     Loads the bitmap image from given path and pre-processes it.
     /// </summary>
     private void LoadBitmap()
+    {
+        // Resize the image to 224x224 and save 
