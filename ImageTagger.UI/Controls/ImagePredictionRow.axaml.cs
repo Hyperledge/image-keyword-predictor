@@ -86,4 +86,5 @@ public class ImagePredictionRow : TemplatedControl
     /// </summary>
     private void LoadBitmap()
     {
-        // Resize the image to 224x224 and save 
+        // Resize the image to 224x224 and save it into a temporary file.
+        var 
