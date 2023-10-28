@@ -88,4 +88,5 @@ public class ImagePredictionRow : TemplatedControl
     {
         // Resize the image to 224x224 and save it into a temporary file.
         var temporaryFilePath = Path.GetTempFileName();
-        var image = SixLabors.ImageSharp.Image.Load<Rgb24>(_
+        var image = SixLabors.ImageSharp.Image.Load<Rgb24>(_imageFilePath);
+        image.Mutate(x => x.Resize
