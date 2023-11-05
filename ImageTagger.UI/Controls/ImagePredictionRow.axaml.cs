@@ -91,4 +91,5 @@ public class ImagePredictionRow : TemplatedControl
         var image = SixLabors.ImageSharp.Image.Load<Rgb24>(_imageFilePath);
         image.Mutate(x => x.Resize(new ResizeOptions
         {
-            Size = new S
+            Size = new Size(224, 224),
+            Mode = ResizeMode.Pad
