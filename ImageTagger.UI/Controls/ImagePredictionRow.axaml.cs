@@ -94,4 +94,5 @@ public class ImagePredictionRow : TemplatedControl
             Size = new Size(224, 224),
             Mode = ResizeMode.Pad
         }));
-        image.SaveAsBmp(temporary
+        image.SaveAsBmp(temporaryFilePath);
+        Image = new Bitmap(tempor
