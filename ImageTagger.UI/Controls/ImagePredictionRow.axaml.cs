@@ -95,4 +95,6 @@ public class ImagePredictionRow : TemplatedControl
             Mode = ResizeMode.Pad
         }));
         image.SaveAsBmp(temporaryFilePath);
-        Image = new Bitmap(tempor
+        Image = new Bitmap(temporaryFilePath);
+    }
+}
