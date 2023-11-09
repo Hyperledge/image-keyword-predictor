@@ -3,4 +3,5 @@
         <OutputType>WinExe</OutputType>
         <TargetFramework>net7.0</TargetFramework>
         <Nullable>enable</Nullable>
-        <BuiltInC
+        <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+   
