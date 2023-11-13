@@ -11,4 +11,5 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Aval
+        <AvaloniaResource Include="Assets\**"/>
+    </ItemGroup>
