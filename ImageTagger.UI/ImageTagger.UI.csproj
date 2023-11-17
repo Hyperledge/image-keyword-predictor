@@ -13,3 +13,7 @@
     <ItemGroup>
         <AvaloniaResource Include="Assets\**"/>
     </ItemGroup>
+
+
+    <ItemGroup>
+        <PackageReference Inc
