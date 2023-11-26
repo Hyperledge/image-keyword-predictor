@@ -20,4 +20,4 @@
         <PackageReference Include="Avalonia.Desktop" Version="11.0.0"/>
         <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.0"/>
         <PackageReference Include="Avalonia.Fonts.Inter" Version="11.0.0"/>
-        <!--Cond
+        <!--Condition below is needed to remove A
