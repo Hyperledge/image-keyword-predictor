@@ -26,3 +26,5 @@
     </ItemGroup>
 
 
+    <ItemGroup>
+        <ProjectReference Incl
