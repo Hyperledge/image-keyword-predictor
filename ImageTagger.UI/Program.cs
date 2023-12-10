@@ -6,4 +6,5 @@ namespace ImageTagger.UI;
 
 internal class Program
 {
-    // Initialization code. Don't use any Avalonia,
+    // Initialization code. Don't use any Avalonia, third-party APIs or any
+    // SynchronizationC
