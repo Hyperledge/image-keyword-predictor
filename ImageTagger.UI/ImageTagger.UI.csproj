@@ -32,4 +32,5 @@
 
 
     <ItemGroup>
-        <Compile Update="Views\MainWindow\MainWi
+        <Compile Update="Views\MainWindow\MainWindow.axaml.cs">
+            <DependentUpon>MainWindow.axam
