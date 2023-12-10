@@ -36,4 +36,5 @@
             <DependentUpon>MainWindow.axaml</DependentUpon>
             <SubType>Code</SubType>
         </Compile>
-    </ItemGr
+    </ItemGroup>
+</Project>
