@@ -2,4 +2,8 @@
 using Avalonia;
 using Avalonia.ReactiveUI;
 
-names
+namespace ImageTagger.UI;
+
+internal class Program
+{
+  
