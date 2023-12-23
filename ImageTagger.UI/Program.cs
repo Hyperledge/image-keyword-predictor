@@ -14,3 +14,5 @@ internal class Program
     {
         BuildAvaloniaApp().StartWithClassicDesktopLifetime(args);
     }
+
+    // Avalonia configuration, don't remove; also 
