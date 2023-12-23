@@ -16,4 +16,6 @@ internal class Program
     }
 
     // Avalonia configuration, don't remove; also used by visual designer.
-    public sta
+    public static AppBuilder BuildAvaloniaApp()
+    {
+      
