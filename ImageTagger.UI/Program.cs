@@ -19,4 +19,5 @@ internal class Program
     public static AppBuilder BuildAvaloniaApp()
     {
         return AppBuilder.Configure<App>()
-            .Use
+            .UsePlatformDetect()
+            .WithInterFo
