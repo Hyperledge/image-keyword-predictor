@@ -22,4 +22,6 @@ internal class Program
             .UsePlatformDetect()
             .WithInterFont()
             .LogToTrace()
-            .UseRea
+            .UseReactiveUI();
+    }
+}
