@@ -20,4 +20,6 @@ internal class Program
     {
         return AppBuilder.Configure<App>()
             .UsePlatformDetect()
-            .WithInterFo
+            .WithInterFont()
+            .LogToTrace()
+            .UseRea
