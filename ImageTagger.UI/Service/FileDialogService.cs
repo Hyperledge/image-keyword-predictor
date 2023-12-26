@@ -1,1 +1,4 @@
-﻿using System.Threading.Task
+﻿using System.Threading.Tasks;
+using Avalonia.Controls;
+
+namespace ImageTagger.UI
