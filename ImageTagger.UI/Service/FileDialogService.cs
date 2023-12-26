@@ -4,4 +4,4 @@ using Avalonia.Controls;
 namespace ImageTagger.UI.Service;
 
 /// <summary>
-///     FileDialogService
+///     FileDialogService is a service that provides a way to o
