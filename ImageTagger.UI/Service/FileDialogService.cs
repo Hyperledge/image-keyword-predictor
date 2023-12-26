@@ -1,4 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Avalonia.Controls;
 
-namespace ImageTagger.UI
+namespace ImageTagger.UI.Service;
+
+/// <summary>
+///     FileDialogService
