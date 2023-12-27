@@ -14,4 +14,4 @@ public class FileDialogService : IFileDialogService
     /// <summary>
     ///     Instantiates a new FileDialogService with the default dialog title.
     /// </summary>
-    publi
+    public FileDialogService() : this("Select Files")
