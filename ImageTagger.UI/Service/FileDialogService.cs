@@ -8,4 +8,5 @@ namespace ImageTagger.UI.Service;
 /// </summary>
 public class FileDialogService : IFileDialogService
 {
-    privat
+    private readonly bool _allowMultiple;
+    private readonly string _
