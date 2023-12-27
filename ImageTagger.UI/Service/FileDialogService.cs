@@ -19,4 +19,4 @@ public class FileDialogService : IFileDialogService
     }
 
     /// <summary>
-    ///     Instantiates 
+    ///     Instantiates a new FileDialogService with the given dialog 
