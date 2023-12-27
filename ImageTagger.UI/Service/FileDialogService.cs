@@ -12,4 +12,6 @@ public class FileDialogService : IFileDialogService
     private readonly string _dialogTitle;
 
     /// <summary>
-    ///     Instantiates a new FileDialogService with the default
+    ///     Instantiates a new FileDialogService with the default dialog title.
+    /// </summary>
+    publi
