@@ -21,4 +21,5 @@ public class FileDialogService : IFileDialogService
     /// <summary>
     ///     Instantiates a new FileDialogService with the given dialog title.
     /// </summary>
-    /// <param name="dialogTitl
+    /// <param name="dialogTitle">The given dialog title.</param>
+    /// <param name="all
