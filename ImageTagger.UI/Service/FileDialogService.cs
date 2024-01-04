@@ -23,4 +23,6 @@ public class FileDialogService : IFileDialogService
     /// </summary>
     /// <param name="dialogTitle">The given dialog title.</param>
     /// <param name="allowMultiple">If true allows selection of multiple files.</param>
-    public FileDialogService(string di
+    public FileDialogService(string dialogTitle, bool allowMultiple = true)
+    {
+     
