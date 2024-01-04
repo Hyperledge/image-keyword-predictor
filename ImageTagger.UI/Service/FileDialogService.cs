@@ -30,4 +30,6 @@ public class FileDialogService : IFileDialogService
     }
 
     /// <summary>
-    ///     Opens a file dialog with the given parent windo
+    ///     Opens a file dialog with the given parent window.
+    /// </summary>
+    /// <param name="parentWindow">The win
