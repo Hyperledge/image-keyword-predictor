@@ -30,4 +30,4 @@ public class FileDialogService : IFileDialogService
     }
 
     /// <summary>
-    
+    ///     Opens a file dialog with the given parent windo
