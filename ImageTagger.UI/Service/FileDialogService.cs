@@ -33,4 +33,5 @@ public class FileDialogService : IFileDialogService
     ///     Opens a file dialog with the given parent window.
     /// </summary>
     /// <param name="parentWindow">The window.</param>
-    /// <returns>Returns an array of file n
+    /// <returns>Returns an array of file names.</returns>
+    public async Task<string[]?
