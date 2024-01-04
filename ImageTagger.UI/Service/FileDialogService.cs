@@ -26,4 +26,8 @@ public class FileDialogService : IFileDialogService
     public FileDialogService(string dialogTitle, bool allowMultiple = true)
     {
         _dialogTitle = dialogTitle;
-        _allowMul
+        _allowMultiple = allowMultiple;
+    }
+
+    /// <summary>
+    
