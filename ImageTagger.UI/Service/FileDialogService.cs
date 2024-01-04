@@ -32,4 +32,5 @@ public class FileDialogService : IFileDialogService
     /// <summary>
     ///     Opens a file dialog with the given parent window.
     /// </summary>
-    /// <param name="parentWindow">The win
+    /// <param name="parentWindow">The window.</param>
+    /// <returns>Returns an array of file n
