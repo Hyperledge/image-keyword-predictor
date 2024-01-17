@@ -34,4 +34,6 @@ public class FileDialogService : IFileDialogService
     /// </summary>
     /// <param name="parentWindow">The window.</param>
     /// <returns>Returns an array of file names.</returns>
-    public async Task<string[]?
+    public async Task<string[]?> OpenDialog(Window parentWindow)
+    {
+        // Cr
