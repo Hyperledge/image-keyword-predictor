@@ -37,4 +37,5 @@ public class FileDialogService : IFileDialogService
     public async Task<string[]?> OpenDialog(Window parentWindow)
     {
         // Create an instance of OpenFileDialog
-        var op
+        var openFileDialog = new OpenFileDialog
+       
