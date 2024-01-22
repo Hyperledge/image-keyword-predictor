@@ -39,4 +39,6 @@ public class FileDialogService : IFileDialogService
         // Create an instance of OpenFileDialog
         var openFileDialog = new OpenFileDialog
         {
-            // Set the dialog's properties as 
+            // Set the dialog's properties as needed
+            Title = _dialogTitle,
+       
