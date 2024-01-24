@@ -44,4 +44,4 @@ public class FileDialogService : IFileDialogService
             AllowMultiple = _allowMultiple
         };
 
- 
+        // Open the dialog and wait for the result
