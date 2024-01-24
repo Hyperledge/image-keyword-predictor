@@ -41,4 +41,7 @@ public class FileDialogService : IFileDialogService
         {
             // Set the dialog's properties as needed
             Title = _dialogTitle,
-       
+            AllowMultiple = _allowMultiple
+        };
+
+ 
