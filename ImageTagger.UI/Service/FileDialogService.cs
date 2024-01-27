@@ -45,3 +45,4 @@ public class FileDialogService : IFileDialogService
         };
 
         // Open the dialog and wait for the result
+        return await openFileDialog.ShowAsync(parentWi
