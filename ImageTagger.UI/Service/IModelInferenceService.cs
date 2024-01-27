@@ -1,1 +1,5 @@
-namespace ImageTagger.UI
+namespace ImageTagger.UI.Service;
+
+public interface IModelInferenceService
+{
+    ///
