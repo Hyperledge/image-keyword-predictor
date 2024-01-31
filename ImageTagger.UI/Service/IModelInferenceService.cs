@@ -5,4 +5,4 @@ public interface IModelInferenceService
     /// <summary>
     ///     Returns the predicted tags for the given image.
     /// </summary>
-    /// <p
+    /// <param name="imagePath">The absolute path to 
