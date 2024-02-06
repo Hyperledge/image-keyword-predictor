@@ -8,4 +8,4 @@ public interface IModelInferenceService
     /// <param name="imagePath">The absolute path to the image for predicting the tags.</param>
     /// <param name="separator">The separator for the predicted tags</param>
     /// <returns>The string with the predicted tags.</returns>
-    strin
+    string PredictTags(string imagePath, string separator);
