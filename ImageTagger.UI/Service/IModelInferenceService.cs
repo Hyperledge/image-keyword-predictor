@@ -9,3 +9,4 @@ public interface IModelInferenceService
     /// <param name="separator">The separator for the predicted tags</param>
     /// <returns>The string with the predicted tags.</returns>
     string PredictTags(string imagePath, string separator);
+}
