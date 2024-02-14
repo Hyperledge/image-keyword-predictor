@@ -6,3 +6,4 @@ using ImageTagger.Core;
 namespace ImageTagger.UI.Service;
 
 /// <summary>
+///     ModelInference class is used to predict ta
