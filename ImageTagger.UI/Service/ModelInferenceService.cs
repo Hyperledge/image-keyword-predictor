@@ -8,4 +8,6 @@ namespace ImageTagger.UI.Service;
 /// <summary>
 ///     ModelInference class is used to predict tags for given images.
 /// </summary>
-public class ModelInferenceService : IModelInferenceSe
+public class ModelInferenceService : IModelInferenceService
+{
+    private const string TaggingMode
