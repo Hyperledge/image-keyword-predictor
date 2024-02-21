@@ -10,4 +10,4 @@ namespace ImageTagger.UI.Service;
 /// </summary>
 public class ModelInferenceService : IModelInferenceService
 {
-    private const string TaggingMode
+    private const string TaggingModelCategoriesPath = "AIModels/prediction_categories.t
