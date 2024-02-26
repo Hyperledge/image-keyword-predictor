@@ -12,4 +12,6 @@ public class ModelInferenceService : IModelInferenceService
 {
     private const string TaggingModelCategoriesPath = "AIModels/prediction_categories.txt";
     private const string TaggingModelPath = "AIModels/prediction.onnx";
-    private readonly Mod
+    private readonly ModelPrediction _modelPrediction;
+
+    /// <summary
