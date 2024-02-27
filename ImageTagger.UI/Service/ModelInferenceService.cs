@@ -14,4 +14,5 @@ public class ModelInferenceService : IModelInferenceService
     private const string TaggingModelPath = "AIModels/prediction.onnx";
     private readonly ModelPrediction _modelPrediction;
 
-    /// <summary
+    /// <summary>
+    ///     Constructs a new instance of ModelInf
