@@ -15,4 +15,6 @@ public class ModelInferenceService : IModelInferenceService
     private readonly ModelPrediction _modelPrediction;
 
     /// <summary>
-    ///     Constructs a new instance of ModelInf
+    ///     Constructs a new instance of ModelInference.
+    /// </summary>
+    public ModelInferen
