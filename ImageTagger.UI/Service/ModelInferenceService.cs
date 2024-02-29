@@ -17,4 +17,7 @@ public class ModelInferenceService : IModelInferenceService
     /// <summary>
     ///     Constructs a new instance of ModelInference.
     /// </summary>
-    public ModelInferen
+    public ModelInferenceService()
+    {
+        // Get assembly base path
+      
