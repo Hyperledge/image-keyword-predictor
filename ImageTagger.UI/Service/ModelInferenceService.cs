@@ -20,4 +20,5 @@ public class ModelInferenceService : IModelInferenceService
     public ModelInferenceService()
     {
         // Get assembly base path
-        var assemblyBasePath = Assembly.GetExecutingAssemb
+        var assemblyBasePath = Assembly.GetExecutingAssembly().Location;
+        var assemblyPath = Path.GetD
