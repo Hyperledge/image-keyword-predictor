@@ -22,4 +22,5 @@ public class ModelInferenceService : IModelInferenceService
         // Get assembly base path
         var assemblyBasePath = Assembly.GetExecutingAssembly().Location;
         var assemblyPath = Path.GetDirectoryName(assemblyBasePath);
-        // Create
+        // Create model prediction instance
+        _modelPrediction = n
