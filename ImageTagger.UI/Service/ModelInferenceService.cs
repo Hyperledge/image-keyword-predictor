@@ -25,4 +25,7 @@ public class ModelInferenceService : IModelInferenceService
         // Create model prediction instance
         _modelPrediction = new ModelPrediction(
             Path.Join(assemblyPath, TaggingModelPath),
-            Path.Join(assemb
+            Path.Join(assemblyPath, TaggingModelCategoriesPath));
+    }
+
+    //
