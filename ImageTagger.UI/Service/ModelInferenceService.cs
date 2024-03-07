@@ -28,4 +28,5 @@ public class ModelInferenceService : IModelInferenceService
             Path.Join(assemblyPath, TaggingModelCategoriesPath));
     }
 
-    //
+    /// <summary>
+    ///     Returns the predicted tags for the g
