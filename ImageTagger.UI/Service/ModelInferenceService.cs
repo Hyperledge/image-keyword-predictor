@@ -29,4 +29,6 @@ public class ModelInferenceService : IModelInferenceService
     }
 
     /// <summary>
-    ///     Returns the predicted tags for the g
+    ///     Returns the predicted tags for the given image.
+    /// </summary>
+    /// <param name="imageP
