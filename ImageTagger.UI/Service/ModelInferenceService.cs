@@ -31,4 +31,4 @@ public class ModelInferenceService : IModelInferenceService
     /// <summary>
     ///     Returns the predicted tags for the given image.
     /// </summary>
-    /// <param name="imageP
+    /// <param name="imagePath">The absolute path to the image for predicti
