@@ -33,4 +33,4 @@ public class ModelInferenceService : IModelInferenceService
     /// </summary>
     /// <param name="imagePath">The absolute path to the image for predicting the tags.</param>
     /// <param name="separator">The separator for the predicted tags</param>
-    //
+    /// <returns>The string with the predicted tags.</returns
