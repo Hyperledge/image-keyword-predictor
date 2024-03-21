@@ -36,4 +36,5 @@ public class ModelInferenceService : IModelInferenceService
     /// <returns>The string with the predicted tags.</returns>
     public string PredictTags(string imagePath, string separator)
     {
-        var tags = _modelP
+        var tags = _modelPrediction.PredictTags(imagePath);
+        var pred
