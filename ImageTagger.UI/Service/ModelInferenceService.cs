@@ -37,4 +37,5 @@ public class ModelInferenceService : IModelInferenceService
     public string PredictTags(string imagePath, string separator)
     {
         var tags = _modelPrediction.PredictTags(imagePath);
-        var predictionTags = tags.Where(tag => tag.Confidence
+        var predictionTags = tags.Where(tag => tag.Confidence > -0.5).Select(tag => tag.Label).ToList();
+        return stri
