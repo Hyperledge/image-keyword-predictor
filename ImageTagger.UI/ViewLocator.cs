@@ -1,3 +1,6 @@
 using System;
 using Avalonia.Controls;
-using Avalonia.Contr
+using Avalonia.Controls.Templates;
+using ImageTagger.UI.ViewModels;
+
+na
