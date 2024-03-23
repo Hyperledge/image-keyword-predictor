@@ -40,3 +40,4 @@ public class ModelInferenceService : IModelInferenceService
         var predictionTags = tags.Where(tag => tag.Confidence > -0.5).Select(tag => tag.Label).ToList();
         return string.Join(separator, predictionTags);
     }
+}
