@@ -3,4 +3,6 @@ using Avalonia.Controls;
 using Avalonia.Controls.Templates;
 using ImageTagger.UI.ViewModels;
 
-na
+namespace ImageTagger.UI;
+
+public class ViewLocator : ID
