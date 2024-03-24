@@ -5,4 +5,6 @@ using ImageTagger.UI.ViewModels;
 
 namespace ImageTagger.UI;
 
-public class ViewLocator : ID
+public class ViewLocator : IDataTemplate
+{
+    public Control Build(object? 
