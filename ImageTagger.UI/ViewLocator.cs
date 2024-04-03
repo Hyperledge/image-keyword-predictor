@@ -19,4 +19,6 @@ public class ViewLocator : IDataTemplate
 
     public bool Match(object? data)
     {
-        re
+        return data is ViewModelBase;
+    }
+}
