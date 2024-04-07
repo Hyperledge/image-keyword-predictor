@@ -11,4 +11,7 @@ public class MainWindowViewModel : ViewModelBase
     private readonly MainWindow _mainWindow;
 
     public MainWindowViewModel(MainWindow mainWindow)
-    
+    {
+        _mainWindow = mainWindow;
+    }
+
