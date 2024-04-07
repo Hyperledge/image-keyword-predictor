@@ -6,4 +6,6 @@ namespace ImageTagger.UI.ViewModels;
 /// <summary>
 ///     MainWindowViewModel is the view model for the MainWindow.
 /// </summary>
-public class MainWindowViewModel : ViewM
+public class MainWindowViewModel : ViewModelBase
+{
+    private readonly MainWindow _mainWindo
