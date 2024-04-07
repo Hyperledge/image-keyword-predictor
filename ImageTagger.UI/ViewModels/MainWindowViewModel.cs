@@ -8,4 +8,7 @@ namespace ImageTagger.UI.ViewModels;
 /// </summary>
 public class MainWindowViewModel : ViewModelBase
 {
-    private readonly MainWindow _mainWindo
+    private readonly MainWindow _mainWindow;
+
+    public MainWindowViewModel(MainWindow mainWindow)
+    
