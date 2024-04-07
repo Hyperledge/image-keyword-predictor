@@ -1,2 +1,6 @@
 ﻿using System.Threading.Tasks;
-using ImageTagger.UI.Views
+using ImageTagger.UI.Views.MainWindow;
+
+namespace ImageTagger.UI.ViewModels;
+
+/
