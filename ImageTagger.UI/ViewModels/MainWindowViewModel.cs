@@ -4,4 +4,5 @@ using ImageTagger.UI.Views.MainWindow;
 namespace ImageTagger.UI.ViewModels;
 
 /// <summary>
-///     MainWindowViewModel is the 
+///     MainWindowViewModel is the view model for the MainWindow.
+/// </
