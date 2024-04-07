@@ -15,3 +15,5 @@ public class MainWindowViewModel : ViewModelBase
         _mainWindow = mainWindow;
     }
 
+    /// <summary>
+    ///     OnLoadImagesClic
