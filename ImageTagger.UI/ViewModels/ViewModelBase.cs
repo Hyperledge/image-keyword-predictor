@@ -2,4 +2,6 @@
 
 namespace ImageTagger.UI.ViewModels;
 
-public class ViewModelBase : Re
+public class ViewModelBase : ReactiveObject
+{
+}
