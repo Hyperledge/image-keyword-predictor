@@ -17,4 +17,5 @@ public class MainWindowViewModel : ViewModelBase
 
     /// <summary>
     ///     OnLoadImagesClick is called when the Load Images button is clicked.
-  
+    /// </summary>
+    public async Task
