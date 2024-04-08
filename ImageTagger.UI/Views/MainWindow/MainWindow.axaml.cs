@@ -85,3 +85,42 @@ public partial class MainWindow : Window
         var result = _predictImagesMutex.WaitOne(1000);
         if (!result)
         {
+            Logger.TryGet(LogEventLevel.Error, LogArea.Control)?.Log(this,
+                "Can't predict images operation already in progress.");
+            return Task.CompletedTask;
+        }
+
+        var imageFiles = GetValidImagePaths(files);
+        if (imageFiles.Count == 0) return Task.CompletedTask;
+        Task.Run(async () =>
+        {
+            var stopwatch = new Stopwatch();
+            stopwatch.Start();
+
+            // Set progress bar visible.
+            Dispatcher.UIThread.Post(() => { _progressBar.IsVisible = true; });
+            _predictionStats.FilesPredicted = imageFiles.Count;
+
+            // For each selected file, filter out non-image files and predict image tags.
+            var actions = new Action[imageFiles.Count];
+            var fileIndex = 0;
+            var completedTagsCount = 0;
+            var failedTagsCount = 0;
+
+
+            imageFiles.ForEach(file =>
+            {
+                actions[fileIndex] = () =>
+                {
+                    try
+                    {
+                        // Predict image tags
+                        var imageTags = _modelInferenceService.PredictTags(file, ",");
+
+                        Dispatcher.UIThread.InvokeAsync(() =>
+                        {
+                            // Update progress bar
+                            completedTagsCount += 1;
+                            _progressBar.Value = (double)(completedTagsCount * 100) / imageFiles.Count;
+                            _imagePredictionStackPanel.Children.Add(new ImagePredictionRow(imageTags, file));
+                        });
