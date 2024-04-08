@@ -38,3 +38,26 @@
                 Tagged 0 files in 0 seconds.
             </TextBlock>
         </Grid>
+        <Separator />
+        <Border
+            BorderBrush="Black"
+            BorderThickness="2"
+            CornerRadius="3"
+            Margin="15"
+            Height="630">
+            <ScrollViewer
+                MaxHeight="600"
+                HorizontalAlignment="Left"
+                Margin="12,0,0,0">
+                <StackPanel Name="MainStackPanel" />
+            </ScrollViewer>
+        </Border>
+        <ProgressBar
+            Name="ProgressBar"
+            IsVisible="False"
+            Margin="10 0"
+            Height="20"
+            Minimum="0" Maximum="100" Value="0"
+            ShowProgressText="True" />
+    </StackPanel>
+</Window>
