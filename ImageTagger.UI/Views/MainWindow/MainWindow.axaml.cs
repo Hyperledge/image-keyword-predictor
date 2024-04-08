@@ -124,3 +124,40 @@ public partial class MainWindow : Window
                             _progressBar.Value = (double)(completedTagsCount * 100) / imageFiles.Count;
                             _imagePredictionStackPanel.Children.Add(new ImagePredictionRow(imageTags, file));
                         });
+                    }
+                    catch (UnknownImageFormatException)
+                    {
+                        failedTagsCount += 1;
+                        Logger.TryGet(LogEventLevel.Warning, LogArea.Control)?.Log(this,
+                            $"Failed to predict tags for file {file}, total failed: {failedTagsCount}.");
+                    }
+                };
+                fileIndex += 1;
+            });
+            Logger.TryGet(LogEventLevel.Information, LogArea.Control)?.Log(this,
+                $"Starting to predict tags for {actions.Length} images.");
+
+            // Run in batches of 100
+            var batchSize = 100;
+            for (var i = 0; i < actions.Length; i += batchSize)
+            {
+                var batch = actions.Skip(i).Take(batchSize).Select(Task.Run).ToArray();
+                if (batch.Any()) await Task.WhenAll(batch);
+            }
+
+            stopwatch.Stop();
+            _predictionStats.TimeElapsed = stopwatch.Elapsed;
+            // Update UI.
+            Dispatcher.UIThread.Post(() =>
+            {
+                _progressBar.Value = 0;
+                _progressBar.IsVisible = false;
+                // Update Prediction stats text.
+                _predictionStatsTextBlock.IsVisible = true;
+                _predictionStatsTextBlock.Text =
+                    $"Tagged {_predictionStats.FilesPredicted} files in {_predictionStats.TimeElapsed.Seconds} seconds.";
+            });
+            _predictImagesMutex.ReleaseMutex();
+        });
+        return Task.CompletedTask;
+    }
