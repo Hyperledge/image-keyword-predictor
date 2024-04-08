@@ -1,3 +1,5 @@
 ﻿using ReactiveUI;
 
-namespace ImageTag
+namespace ImageTagger.UI.ViewModels;
+
+public class ViewModelBase : Re
