@@ -20,4 +20,6 @@ public class MainWindowViewModel : ViewModelBase
     /// </summary>
     public async Task OnLoadImagesClick()
     {
-        await _mainWindo
+        await _mainWindow.TagImages();
+    }
+}

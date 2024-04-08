@@ -1,0 +1,3 @@
+﻿using ReactiveUI;
+
+namespace ImageTag
