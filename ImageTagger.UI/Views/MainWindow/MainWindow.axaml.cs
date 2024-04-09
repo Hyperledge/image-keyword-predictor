@@ -161,3 +161,44 @@ public partial class MainWindow : Window
         });
         return Task.CompletedTask;
     }
+
+    /// <summary>
+    ///     OnLoadImages_Click is the event handler for the Load Images button.
+    ///     It opens a file dialog and loads the selected images.
+    ///     Then it calls the model inference service to predict the image tags.
+    ///     Finally it adds the image and the predicted tags to the UI stack panel.
+    /// </summary>
+    public async Task TagImages()
+    {
+        // Open the dialog and wait for the result
+        var result = await _fileDialogService.OpenDialog(this);
+
+        // Process the selected file(s) if the dialog was not cancelled
+        if (result is { Length: > 0 }) await Task.Run(async () => { await PredictTagsForFiles(result); });
+    }
+
+
+    /// <summary>
+    ///     Given a <see cref="IEnumerable{String}" /> containing file paths it filters out
+    ///     paths which are not valid image paths.
+    /// </summary>
+    /// <returns>A list of valid images paths.</returns>
+    /// <throws><see cref="ArgumentNullException" /> if <paramref name="files" /> is null.</throws>
+    // ReSharper disable once MemberCanBeMadeStatic.Local
+#pragma warning disable CA1822
+    private List<string> GetValidImagePaths(IEnumerable<string> files)
+    {
+        if (files == null) throw new ArgumentNullException(nameof(files));
+
+        var enumerable = files as string[] ?? files.ToArray();
+        if (!enumerable.Any()) return new List<string>();
+
+        return enumerable.Where(file =>
+            file.ToLower().EndsWith(".png") ||
+            file.ToLower().EndsWith(".jpg") ||
+            file.ToLower().EndsWith(".jpeg") ||
+            file.ToLower().EndsWith(".webp")
+        ).ToList();
+    }
+#pragma warning restore CA1822
+}
