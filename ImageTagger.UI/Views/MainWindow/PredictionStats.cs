@@ -8,3 +8,13 @@ namespace ImageTagger.UI.Views.MainWindow;
  */
 internal record PredictionStats
 {
+    /**
+     * FilesPredicted tracks the files predicted count.
+     */
+    public int FilesPredicted { get; set; }
+
+    /**
+     * TimeElapsed tracks the prediction's elapsed time.
+     */
+    public TimeSpan TimeElapsed { get; set; }
+}
